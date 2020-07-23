@@ -8,7 +8,12 @@ class AssertTest {
 
 	@Test
 	void test() {
-		assertEquals(1, 1);
+		boolean condition = true;
+		assertEquals(1, 1);//import static method so we can use mothod with out its class name
+		assertTrue(condition);
+		assertFalse(condition);
+//		assertNotNull(actual);
+//		assertArrayEquals(expected, actual);
 	}
 
 }
